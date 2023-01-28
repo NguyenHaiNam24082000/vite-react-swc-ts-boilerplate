@@ -1,0 +1,6 @@
+#!/usr/bin/env sh
+. "$(dirname -- "$0")/_/husky.sh"
+
+# yarn enfore-branch-name '(hotfix|bugfix|feature)/.+' --ignore '(staging|develop|main)'
+# yarn lint-staged
+# yarn test

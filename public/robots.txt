@@ -1,0 +1,9 @@
+# https://www.robotstxt.org/robotstxt.html
+# https://developers.google.com/search/docs/crawling-indexing/robots/create-robots-txt
+User-agent: Googlebot
+Disallow: /nogooglebot/
+
+User-agent: *
+Allow: /
+
+Sitemap: https://www.example.com/sitemap.xml
